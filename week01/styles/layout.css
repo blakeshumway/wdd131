@@ -51,7 +51,7 @@ body {
 
 nav {
 	margin: 0 auto 2rem;
-    padding: 1rem;
+  padding: 1rem;
 }
 
   .navigation {
@@ -59,8 +59,8 @@ nav {
 	display: flex;
 	background-color: #333;
 	align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: auto;
+  justify-content: space-evenly;
+  margin-bottom: auto;
 }
 .navigation li {
 	flex: 1 1 auto; 
@@ -69,7 +69,7 @@ nav {
 	display: block;
 	color: #eee;
 	padding: 1.3rem;
-    font-size: 30px;
+  font-size: 30px;
 	text-decoration: none;
 	text-align: center;
  	
