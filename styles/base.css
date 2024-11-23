@@ -64,7 +64,7 @@ main {
 	grid-template-columns: 2fr 1fr;
 	justify-content: space-evenly;
 	padding: 1rem;
-
+	max-width: 100%;
 }
 
 .card-1 {
