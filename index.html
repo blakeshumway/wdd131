@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Blake Shumway</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals index page">
@@ -10,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - Blake Shumway</h1>
         <nav>
             <ul class="navigation">
             <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
@@ -22,21 +23,45 @@
     </header>
 
     <main>
-        <section class="card">
-            <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Profile Picture">
+        <section class="card-1">
+
+            <h2 class="title">About Me</h2>
+
+            <p class="bio">My name is Blake and I live in Norman, Oklahoma. My hobbies are working on code, reading from the scriptures and hanging out with my friends.
+                I work most days of the week and serve at the Oklahoma City Temple on friday afternoons. I hope to better understand html css and javascript by the end of this course!
+            </p>
+
+
+            <img class= "profile" src="images/profile.jpeg" alt="Profile Picture">
+
+
+   
+            <h3 class="state-title">Norman, Oklahoma</h3>
+          
+            <img class= "state-flag" src="images/oklahoma-flag.png" alt="Oklahoma Flag">
+            <p class="state">Oklahoma is the 46th state in the United States of America. Oklahoma's main export is oil and gas, with them producing around 183,000 barrels of oil everyday. Oklahoma is also has over 400 miles of the historic Route 66 and has a museum for tourists to visit to learn more about it. Oklahoma's largest city is located in its center, it being Oklahoma City with a population of 649,021 people. Its second largest city is Tulsa, with a population of 400,669 people.</p>
 
         </section>
 
+        <section class="card-2">
+            <h2 class="title">Web Dev Resources</h2>
+            <ul class="resources">
+                <li><a href="placeholder">placeholder</a></li>
+                <li><a href="placeholder">placeholder</a></li>
+                <li><a href="placeholder">placeholder</a></li>
+                <li><a href="placeholder">placeholder</a></li>
+                <li><a href="placeholder">placeholder</a></li>
 
-        <section class="card">
-            <h2>Web Dev Resources</h2>
+            </ul>
 
         </section>
     </main>
 
     <footer>
-        <p></p>
+        <p>
+            &copy;<span id="currentyear"></span>
+        
+        </p>
         <p></p>
     </footer>
 </body>
