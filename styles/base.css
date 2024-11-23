@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
 	--heading-font: Arimo, sans-serif;
     --paragraph-font: Arimo, sans-serif;
@@ -145,4 +147,8 @@ border-radius: 25px;
 
 footer {
 	background-color: rgb(57, 112, 157);
+	color: white;
+	padding: 1rem;
+	text-align: center;
+	font-size: 20px;
 }
