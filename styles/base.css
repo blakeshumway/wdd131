@@ -137,13 +137,15 @@ border-radius: 25px;
 
 .resources {
 	font-size: 30px;
-
 }
+
 
 .resources li {
 	padding: 15px;
-
+	margin-bottom: 50px;
 }
+
+
 
 footer {
 	background-color: rgb(57, 112, 157);
