@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--heading-font: Arimo, sans-serif;
+    --paragraph-font: Arimo, sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+	font-family: var(--heading-font);
+}
+
+header {
+    background-color: rgb(57, 112, 157);
+}
+
+/* nav bar*/
+h1 {
+	text-align: left;
+    color: white;
+	font-size: 2rem;
+	margin-left: 1rem;
+    padding: 1rem;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+	max-width: 700px;
+	margin: 1rem auto;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+
+
+
+footer {
+	background-color: rgb(57, 112, 157);
+	color: white;
+	padding: 1rem;
+	text-align: center;
+	font-size: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+figure {
+    background-color: rgb(226, 226, 226);
+    padding: 1rem;
+}
+
+figcaption {
+    text-align: center;
+}
