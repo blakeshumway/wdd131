@@ -1,5 +1,7 @@
+
+
 /* large view navigation ************************************/
-@media (min-width: 600px) {
+@media (min-width: 60rem) {
 
     header {
         display: flex;
@@ -47,13 +49,23 @@
 
     .images {
         display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 4rem;
+        grid-template-columns: auto auto;
+        gap: 5rem;
         
         
     }
      
     main {
     padding: 1rem;
+    }
+
+    @media (min-width: 80rem) {
+        .images {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 4rem;
+            
+            
+        }
     }
 }
