@@ -13,6 +13,11 @@
     
 	}
 
+    h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
 
 	#menu {
 		display: none; /* hide hamburger button */
@@ -43,6 +48,12 @@
     .images {
         display: grid;
         grid-template-columns: auto auto auto;
+        gap: 4rem;
         
+        
+    }
+     
+    main {
+    padding: 1rem;
     }
 }
