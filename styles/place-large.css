@@ -1,11 +1,12 @@
 
 
+
 /* large view navigation ************************************/
 @media (min-width: 60rem) {
 
 
 	h1 {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
         text-align: center;
         margin: 2rem;
     
@@ -35,13 +36,13 @@
     .data {
         position: absolute;
         top: 20rem;
-        left: 5rem;
+        left: 3.5rem;
     }
 
     .weather {
         position: absolute;
-        top: 45rem;
-        right: 5rem;
+        top: 30rem;
+        right: 3.5rem;
         padding: 0px;
     }
 
@@ -51,4 +52,20 @@
     padding: 1rem;
     }
 
+}
+
+@media (min-width: 73rem)
+{
+    .data {
+        position: absolute;
+        top: 20rem;
+        left: 5rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 45rem;
+        right: 5rem;
+        padding: 0px;
+    }
 }
