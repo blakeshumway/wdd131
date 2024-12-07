@@ -25,8 +25,8 @@ function calculateWindChill(t, w)
 
 let windChill = calculateWindChill(temp, wind);
 
-document.getElementById("temperature").innerHTML = `${temp}°F`;
-document.getElementById("wind").innerHTML = `${wind}°F`;
+document.getElementById("temperature").innerHTML = `${temp}`;
+document.getElementById("wind").innerHTML = `${wind}`;
 
 if (temp >= 50 || wind < 3)
 {

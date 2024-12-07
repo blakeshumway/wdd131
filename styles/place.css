@@ -93,10 +93,12 @@ footer {
 	font-size: 1.5rem;
 	
 }
-
-.weather h2::after {
-    content: url(/images/weather-icon.svg);
+.weather img {
+    height: 100px;
     
+}  
+.data h2::after {
+    content: " 🗒️"
 }
 
 
