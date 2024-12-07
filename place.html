@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oklahoma - Blake Shumway</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals index page">
+    <meta name="author" content="Blake Shumway">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Oklahoma</h1>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/cowyy.jpg" media="(max-width: 960px)">
+                <img src="images/oklahoma-landscape.webp" alt="Oklahoma City Temple, Oklahoma">
+            </picture>
+
+
+        </section>
+        <div class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 69,899 mi²</li>
+                <li>Population: 4.054 million</li>
+                <li>Capital: Oklahoma City</li>
+                <li>Timezone: GMT-6</li>
+                <li>Main Crop: Winter Wheat</li>
+                <li>Statehood: 1907</li>
+
+
+
+            </ul>
+
+        </div>
+        <div class="weather">
+            <div class="icon">
+                <img src="images/weather-icon.svg" alt="Weather Icon">
+                <h2>Weather</h2>
+            </div>
+            
+            <ul>
+                <li>Temperature: <span id="temperature"></span></li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>Wind: <span id="wind"></span></li>
+                <li>Wind Chill: <span id="wind-chill"></span></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentYear"></span> | Blake Shumway | Oklahoma
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>
+
+    </footer>
+</body>
+</html>

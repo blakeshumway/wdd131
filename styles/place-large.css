@@ -1,0 +1,54 @@
+
+
+/* large view navigation ************************************/
+@media (min-width: 60rem) {
+
+
+	h1 {
+		font-size: 2.5rem;
+        text-align: center;
+        margin: 2rem;
+    
+	}
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    div {
+        padding: 1rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(239, 232, 199);
+        
+    }
+   .hero img {
+        border: solid rgb(154, 59, 38);
+        border-width: 10px;
+    }
+
+    .data {
+        position: absolute;
+        top: 20rem;
+        left: 5rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 45rem;
+        right: 5rem;
+        padding: 0px;
+    }
+
+    
+
+    main {
+    padding: 1rem;
+    }
+
+}

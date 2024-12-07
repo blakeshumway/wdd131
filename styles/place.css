@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arimo, sans-serif;
+}
+
+p {
+	font-family: Arimo, sans-serif;
+}
+
+header {
+    padding: .5rem;
+    background-color: rgb(29, 92, 66);
+}
+
+body {
+    background-color: rgb(239, 232, 199);
+}
+
+picture {
+    padding: 1rem;
+}
+
+h1 {
+	text-align: center;
+    color: white;
+	font-size: 3rem;
+    padding: 2rem;
+
+}
+
+h2 {
+    background-color: rgb(154, 59, 38);
+    color: rgb(234, 226, 226);
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 153, 93);
+    margin: 1rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 153, 93);
+    margin: 1rem;
+    
+}
+
+
+div h2 {
+    padding:1rem;
+}
+
+
+
+footer {
+	background-color: rgb(29, 92, 66);
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	
+}
+.weather img  {
+    height: 100px;
+    
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
