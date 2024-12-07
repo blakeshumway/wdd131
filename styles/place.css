@@ -43,9 +43,6 @@ h1 {
 
 }
 
-h1::first-letter {
-	font-size: 3.5rem;
-}
 
 h2 {
     background-color: rgb(154, 59, 38);
@@ -59,6 +56,7 @@ ul {
     font-size: 1.5rem;
     
 }
+
 
 ul li {
     margin-bottom: 1rem;
@@ -95,8 +93,9 @@ footer {
 	font-size: 1.5rem;
 	
 }
-.weather img {
-    height: 100px;
+
+.weather h2::after {
+    content: url(/images/weather-icon.svg);
     
 }
 

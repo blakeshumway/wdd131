@@ -41,7 +41,7 @@
 
     .weather {
         position: absolute;
-        top: 30rem;
+        top: 27rem;
         right: 3.5rem;
         padding: 0px;
     }
@@ -64,8 +64,8 @@
 
     .weather {
         position: absolute;
-        top: 45rem;
+        top: 41rem;
         right: 5rem;
-        padding: 0px;
+        padding: 10px;
     }
 }
