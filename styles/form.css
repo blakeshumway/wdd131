@@ -1,0 +1,149 @@
+
+
+
+
+body {
+    margin: 0px;
+}
+
+
+header {
+    text-align: center;
+    background-color: rgb(57, 112, 157);
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    background-color: rgb(57, 112, 157);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+/* FORM STYLING */
+
+
+
+
+form {
+    max-width: 500px;
+    min-width: 500px;
+    background-color: rgb(226, 226, 226);
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 6px;
+
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.reviewform fieldset {
+    margin: 2rem 0;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    background-color: white;
+}
+
+.reviewform legend {
+    margin-top: 1.5rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+}
+
+.reviewform label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.reviewform div {
+    font-size: .9rem;
+    text-align: center;
+}
+
+.reviewform input[type="text"],
+.reviewform input[type="tel"], 
+.reviewform input[type="email"], 
+.reviewform input[type="url"], 
+.reviewform input[type="date"], 
+.reviewform select, 
+.reviewform input[type="number"] 
+{
+
+    display: block;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.reviewform input[type="radio"],
+.reviewform input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.reviewform input[type="submit"]{
+    border: none;
+    background-color: rgb(57, 112, 157);
+    color: white;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px gray;
+    width: 475px;
+    font-size: 1.5rem;
+}
+
+.reviewform input:required {
+    border-left: solid 8px red;
+}
+
+.reviewform input:required:valid {
+    border-left: solid 8px green;
+}
+
+/* stars display */
+
+
+.product-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+    
+.product-rating label {
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 1px;
+}
+
+textarea {
+    margin: 10px;
+    min-height: 90px;
+    min-width: 400px;
+}
+
+legend {
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 1.1rem;
+}
+
