@@ -39,10 +39,10 @@ const products = [
     }
   ];
 
-
-
 const productList = document.getElementById("product")
 //append to options
+
+
 products.forEach(product => {
     const option = document.createElement("option");
     option.value = product.id;

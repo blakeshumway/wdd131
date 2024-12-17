@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals - Blake Shumway</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals index page">
+    <title>Product Review Form</title>
+    <meta name="description" content="WDD 131 - Product Review Form">
     <meta name="author" content="Blake Shumway">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,54 +23,54 @@
         <form method="get" action="review.html" class="reviewform">
 
         <fieldset>
-            <legend></legend>
+            
             <label>Product Name*</label>
-            <label><select id="product" name ="product" required></label>
+            <select id="product" name ="product" required>
             <option value="">Choose a product</option>
             </select>
 
-            <legend>Overall Rating</legend>
+            <h4>Overall Rating</h4>
             <div class="product-rating">
                 <div class="star-rating">
-                    <label for="star">☆</label>
-                    <input type="radio" name="rating" id="star-1" value="1" required/>
+                    <label id="star1">☆</label>
+                    <input type="radio" name="rating" id="star-1" value="1" required>
                 </div> 
 
                 <div class="star-rating">
-                    <label for="star">☆☆</label>
-                    <input type="radio" name="rating" id="star-1" value="1"/>
+                    <label id="star2">☆☆</label>
+                    <input type="radio" name="rating" id="star-2" value="1">
                 </div> 
                 <div class="star-rating">
-                    <label for="star">☆☆☆</label>
-                    <input type="radio" name="rating" id="star-1" value="1"/>
-                </div> 
-  
-                <div class="star-rating">
-                    <label for="star">☆☆☆☆</label>
-                    <input type="radio" name="rating" id="star-1" value="1"/>
+                    <label id="star3">☆☆☆</label>
+                    <input type="radio" name="rating" id="star-3" value="1">
                 </div> 
   
                 <div class="star-rating">
-                    <label for="star">☆☆☆☆☆</label>
-                    <input type="radio" name="rating" id="star-1" value="1"/>
+                    <label id="star4">☆☆☆☆</label>
+                    <input type="radio" name="rating" id="star-4" value="1">
+                </div> 
+  
+                <div class="star-rating">
+                    <label id="star5">☆☆☆☆☆</label>
+                    <input type="radio" name="rating" id="star-5" value="1">
                 </div> 
             </div>
             
-            <label>Date of installation*<input type="date" name="date" id="date" required> </label>
+            <label>Date of installation*<input type="date" name="date" id="date" required></label>
 
         
-            <legend>What did you find useful about the Product?</legend>
-            <legend>(Check all that apply)</legend>
+            <h4>What did you find useful about the Product?</h4>
+            <h4>(Check all that apply)</h4>
             <label><input type="checkbox" name="Useful" value="yes">Durability</label>
             <label><input type="checkbox" name="amazing" value="yes">Ease of Use</label>
             <label><input type="checkbox" name="cheap" value="yes">Performance</label>
             <label><input type="checkbox" name="lasting" value="yes">Design</label>
         
      
-            <legend>Written Review (Optional)</legend>
+            <h4>Written Review (Optional)</h4>
 
             <textarea name="written" id="review" placeholder="Write your response here..."></textarea>
-            <label>Your Name <input type="text" name="fname"></label></label>
+            <label>Your Name <input type="text" name="fname"></label>
         </fieldset>
             
         <input type="submit" value="Post Review">
