@@ -13,11 +13,44 @@ const date = new Date();
 //get the year
 const year = date.getFullYear();
 
-//store last date modification
-const lastModifiedDate = document.lastModified;
+
+if (window.location.pathname.includes(`biglots-norman-store-contact-us.html`))
+{
+
+let reviewCount = parseInt(localStorage.getItem('reviewCount') || '0', 10);
+
+localStorage.setItem('reviewCount', reviewCount);
+document.querySelector('form').onsubmit = function(event){
+	event.preventDefault();
+	reviewCount++;
+	
+	localStorage.setItem('reviewCount', reviewCount);
+
+	alert(`Your review has been submitted. Thank you for shopping at your community biglots!`);
+	window.location.href = `biglots-norman-store-contact-us.html`;
+}
+if (reviewCount == 0)
+{
+	document.getElementById('reviewCount').innerText = `None so far`;
+}
+
+else {
+document.getElementById('reviewCount').innerText = reviewCount;
+}
+
+};
+
+
+
+
+
+
 
 document.getElementById("currentYear").innerHTML = ` ${year}`;
-document.getElementById("lastModified").innerHTML = `Last Modified ${lastModifiedDate}`;
+
+
+if (window.location.pathname.includes(`biglots-norman-store-furniture.html`))
+{
 
 const furniture = [
 
@@ -113,10 +146,12 @@ const furniture = [
 var filter = furniture;
 
 
+
+
 const broyhillButton = document.querySelector("#broyhill")
 broyhillButton.addEventListener('click', () => {
 	const isBroyhill = furniture.filter(furniture => {
-		const brand = furniture.brand == "Broyhill";
+		const brand = furniture.brand == `Broyhill`;
 		return brand;
 	});
 	filter = isBroyhill;
@@ -151,4 +186,14 @@ allButton.addEventListener('click', () => {
 	createTempleCards(filter);
 })
 
-createTempleCards(filter);
+
+	createTempleCards(filter);
+}
+
+
+
+
+
+
+
+

@@ -56,6 +56,7 @@ h1 {
 h2 {
     text-align: center;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -186,7 +187,8 @@ footer {
 	font-family: Arimo, sans-serif;
 }
 .contact-button:hover {
-background-color: #484744;
+background-color: #5f5e5a;
+
 
 }
 
@@ -233,14 +235,7 @@ background-color: #484744;
  
 
 /* contact us page */
-.contact-info {
-	text-align: center;
-    padding-bottom: 50px;
-    padding-top: 30px;
-	background-color: rgb(232, 229, 229);
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
+
 
 /* form */
 form {
@@ -344,18 +339,24 @@ textarea {
 	margin: 0px;
 }
 
-.contact-info
-{
-	padding: 3rem;
-	height: 45rem;
-	border: 3px solid #484744;
-    border-radius: 6px;
 
+
+.contact-info {
+    height: 50rem;
+	text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+	background-color: rgb(232, 229, 229);
+	margin-left: 1rem;
+	margin-right: 1rem;
+    border: 3px solid #484744;
+    border-radius: 6px;
 }
+
 
 .contact-info h3{
 	font-size: 1.5rem;
-	padding: 10px;
+	padding: 30px;
 }
 
 .contact-info p {

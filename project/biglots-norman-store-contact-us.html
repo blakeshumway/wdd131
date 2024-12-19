@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/biglots-norman-store.css">
     <link rel="stylesheet" href="styles/biglots-norman-store-large.css">
-    <script src="scripts/biglots-store.js" defer></script>
+    <script src="scripts/biglots-norman-store.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglots Norman Store Contact Us</title>
     <meta name="description" content="Biglots Norman Store Contact us page">
@@ -33,7 +33,7 @@
     <main>
 
         <div class="welcome-message">
-            <p>Welcome to the website of your local community BigLots!<br /> Check out all the deals on your favorite items!</p>
+            <p>Want to know our store hours? need our address? Our contact info is below!<br /> While your here, why not also leave us a review!</p>
         </div>
 
         <h2>Contact Information</h2>
@@ -62,10 +62,11 @@
         
         <div class="form-container">
             
-            <form method="get" action="contact.html" class="reviewform">
+            <form id="form" action="#" class="reviewform">
             <fieldset>
                 <h2 class="review-heading">Leave us a review!</h2>
-                <label>Your Name <input type="text" name="fname" required></label>
+                <h3>Reviews submitted: <span id="reviewCount"></span></h3>
+                <label>Your Name <input type="text" id="fname" required></label>
                 <label>When did you visit our store?<input type="date" name="date" id="date" required></label>
                 <h4>How would you say your experience was?<br>(Choose one)</h4>
                 <label><input type="radio" name="rating" id="checkbox-2" value="1" required>Great</label>
@@ -82,16 +83,14 @@
     </div>
 </section>
 
-        
+
     </main>
 
     <footer>
         <p>
-            &copy;<span id="currentYear"></span> | Blake Shumway | Oklahoma
+            &copy;<span id="currentYear"></span> BigLots Stores, Inc
         </p>
-        <p>
-            <span id="lastModified"></span>
-        </p>
+
 
     </footer>
 
