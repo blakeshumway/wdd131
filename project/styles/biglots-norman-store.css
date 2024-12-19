@@ -31,7 +31,7 @@ p {
 
 
 header {
-    background-color: #ff5200;
+    background-color: #484744;
 }
 
 
@@ -47,10 +47,10 @@ main {
 h1 {
 	text-align: left;
     color: white;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-left: 1rem;
     padding: 1rem;
-
+    
 }
 
 h2 {
@@ -90,7 +90,7 @@ nav {
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
-	background-color: #ff5200;
+	background-color: #484744;
 	color: #fff;
 	font-family: Arimo, sans-serif;
 	font-size: 1.3rem;
@@ -144,10 +144,11 @@ footer {
 
 .welcome-message p {
     padding: 4rem;
-    
     font-size: 2rem;
-    background-color: rgb(232, 229, 229);
+    background-color: #fff200;
+    border-radius: 8px;
     
+    border: 1rem solid #ff5200;
 }
 
 
@@ -161,6 +162,7 @@ footer {
     margin-right: 7rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 .contact-us p {
@@ -173,7 +175,7 @@ footer {
     padding: 16px 65px;
     font-size: 20px;
     color: #fff;
-    background-color: #ff5200;
+    background-color: #484744;  /* #ff5200 */
     border-radius: 4px;
     text-align: center;
     font-weight: bold;
@@ -185,6 +187,7 @@ footer {
 }
 .contact-button:hover {
 background-color: #484744;
+
 }
 
 
@@ -309,12 +312,12 @@ form {
 .reviewform input[type="submit"]{
     border: none;
     background-color: #ff5200;
+    box-shadow: 1px 1px 4px gray;
     color: white;
     border-radius: 6px;
     padding: .8rem;
     width: 96%;
     margin: -1rem 2% 2rem 2%;
-    box-shadow: 1px 1px 4px gray;
     width: 450px;
     font-size: 1.5rem;
 	
