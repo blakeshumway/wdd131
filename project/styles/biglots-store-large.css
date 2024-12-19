@@ -1,0 +1,126 @@
+
+
+/* large view navigation ************************************/
+
+
+@media (min-width: 60rem) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+	h1 {
+		font-size: 2.5rem;
+		text-align: left;
+        margin: 2rem;
+    
+	}
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+        background-color: #ff5200;
+        font-size: 30px;
+        margin: 2rem;
+        gap: 2.5rem;
+        margin-top: 2.5rem;
+        
+	}
+
+
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    nav {
+        max-width: 700px;
+        margin: 1rem auto;
+    }
+
+
+    main {
+    padding: 1rem;
+    }
+
+
+    .deals-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+    }
+
+    .ad1 {
+        max-width: 386px;
+    }
+    
+    
+    .popular-items {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1rem;
+
+    }
+
+    .contact-us {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+
+
+    /*contact us specific*/
+    .contact-us-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .left-side {
+        height: 50rem;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        
+        
+    }
+
+
+
+}
+
+@media (min-width: 80rem) {
+    .deals-1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+    }
+
+
+
+    .images {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 4rem;
+        
+    }
+
+    .contact-us {
+        margin-left: 23rem;
+        margin-right: 23rem;
+    }
+}

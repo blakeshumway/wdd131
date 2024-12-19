@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/biglots-store.css">
+    <link rel="stylesheet" href="styles/biglots-store-large.css">
+    <script src="scripts/biglots-store.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglots Store 1696 Home</title>
+    <meta name="description" content="Biglots store 1696 Home page">
+    <meta name="author" content="Blake Shumway">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>BigLots Norman store</h1>
+        <div class="nav-bar">
+        <button type="button" id="menu"> Menu</button>
+        
+        <nav>
+            <ul class="navigation">
+            <li><a href="biglots-norman-store-home.html">Home</a></li>
+            <li><a href="biglots-norman-store-furniture.html">Furniture</a></li>
+            <li><a href="biglots-norman-store-contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <h2>Contact Information</h2>
+        <section class="contact-us-flex">
+        <div class="left-side">
+            <div class="contact-info">
+                <h3>Address: 2211 W Main St, Norman, OK 73069</h3>
+                <h3>Phone Number: (405)364-7823</h3>
+
+                <div class="schedule">
+                <h3>Store Hours</h3>
+
+                <p>Sunday: 10am - 9pm</p>
+                <p>Monday: 9am - 9pm</p>
+                <p>Tuesday: 9am - 9pm</p>
+                <p>Wednesday: 9am - 9pm</p>
+                <p>Thursday: 9am - 9pm</p>
+                <p>Friday: 8am - 10pm</p>
+                <p>Saturday: 8am - 10pm</p>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="right-side">
+        
+        <div class="form-container">
+            
+            <form method="get" action="contact.html" class="reviewform">
+            <fieldset>
+                <h2 class="review-heading">Leave us a review!</h2>
+                <label>Your Name <input type="text" name="fname" required></label>
+                <label>When did you visit our store?<input type="date" name="date" id="date" required></label>
+                <h4>How would you say your experience was?<br>(Choose one)</h4>
+                <label><input type="radio" name="rating" id="checkbox-2" value="1" required>Great</label>
+                <label><input type="radio" name="rating" id="checkbox-3" value="1" required>Good</label>
+                <label><input type="radio" name="rating" id="checkbox-4" value="1" required>Okay</label>
+                <label><input type="radio" name="rating" id="checkbox-5" value="1" required>Bad</label>
+                <label><input type="radio" name="rating" id="checkbox-6" value="1" required>Terrible</label>
+                <h4>Written Review (Optional)</h4>
+                <textarea name="written" id="review" placeholder="Write your response here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Post My Review">
+            </form>
+        </div>
+    </div>
+</section>
+
+        
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentYear"></span> | Blake Shumway | Oklahoma
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>
+
+    </footer>
+
+</body>
+</html>
